@@ -7,7 +7,14 @@
 // Use a classic for loop: for (let i = 1; i <= n; i++) { ... }
 
 function sumTo(n) {
-  // TODO: replace this with your implementation
+  if (n < 0) {return 0;}
+  let total = 0;
+
+  for (let i = 1; i <= n; i++) {
+    total = total + i;
+  }
+
+    return total;
 }
 
 // --- Tests (do not edit) ---
